@@ -2,6 +2,9 @@
 
 namespace LevelOne
 {
+    /// <summary>
+    /// Class doc
+    /// </summary>
     public class Program
     {
         /// <summary>
