@@ -1,4 +1,6 @@
-﻿using Spectre.Console;
+﻿using System;
+using SoGoodLib;
+using Spectre.Console;
 
 namespace LevelTwo
 {
@@ -6,6 +8,8 @@ namespace LevelTwo
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine(SoGoodClass.SoGoodMethod());
+            
             string defaultImagePath = "tux.jpg";
             string imagePath;
             int width;
